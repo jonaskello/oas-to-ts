@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.settings.json",
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    // "noErrorTruncation": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "lib": ["dom", "es2019", "es2017.object", "esnext.asynciterable"]
+  }
+}
